@@ -3,3 +3,9 @@
   color: tomato;
   text-shadow: 3px 3px 1px #000;
 }
+
+.title.-second{
+  color: #fff;
+  text-shadow: none;
+  text-align: center;
+}
