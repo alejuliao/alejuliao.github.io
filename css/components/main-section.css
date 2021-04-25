@@ -1,16 +1,16 @@
-.section {
+.main-section {
   background-color: tomato;
   padding-top: 50px;
   padding-bottom: 100px;
   border-bottom: 10px solid mediumpurple;
 }
 
-.section .main-title{
+.main-section .main-title{
   margin-bottom: 60px;
 }
-.section.-bgBlack{
+.main-section.-bgBlack{
   background-color: #000;
 }
-.section.-bdFirst{
+.main-section.-bdFirst{
 border-color: violet;
 }
