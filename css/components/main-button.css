@@ -1,4 +1,4 @@
-.button {
+.main-button {
   display: inline-block;
   background-color: tomato;
   text-decoration: none;
@@ -12,7 +12,7 @@
   transition: transform 0.2s linear;
   /* , opacity 200ms ease-in-out; */
 }
-.button:hover {
+.main-button:hover {
   transform: scale(1.08);
   /* opacity: 0.8; */
 }
