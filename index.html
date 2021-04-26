@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/components/main-title.css">
+  <link rel="stylesheet" href="css/components/button-arrow.css">
   <link rel="stylesheet" href="css/components/main-subtitle.css">
   <link rel="stylesheet" href="css/components/main-box.css">
   <link rel="stylesheet" href="css/components/main-button.css">
@@ -20,6 +21,9 @@
   <link rel="stylesheet" href="css/components/wrapper-skill.css">
   <link rel="stylesheet" href="css/components/card-project.css">
   <link rel="stylesheet" href="css/components/wrapper-card.css">
+  <link rel="stylesheet" href="css/components/main-description.css">
+  <link rel="stylesheet" href="css/components/node-card.css">
+  <link rel="stylesheet" href="css/components/main-carousel.css">
   <title>Alexandre Julião</title>
 </head>
 
@@ -132,23 +136,81 @@
   <section class="main-section -bgBlack -bdFirst">
     <h2 class="main-title -second">Projects</h2>
     <div class="wrapper-card">
-      <a href="https://github.com/alejuliao" target="_blank" >
+      <a href="https://github.com/alejuliao" target="_blank">
         <figure class="card-project">
           <img src="/img/ico_js.png" alt="projeto1">
         </figure>
       </a>
-      <a href="https://github.com/alejuliao" target="_blank" >
+      <a href="https://github.com/alejuliao" target="_blank">
         <figure class="card-project -blue">
           <img src="/img/ico_js.png" alt="projeto1">
         </figure>
       </a>
-      <a href="https://github.com/alejuliao" target="_blank" >
+      <a href="https://github.com/alejuliao" target="_blank">
         <figure class="card-project -red">
           <img src="/img/ico_js.png" alt="projeto1">
         </figure>
       </a>
     </div>
   </section>
+
+  <section class="main-section -bgSecond -bdBlack">
+    <h3 class="main-title -second"> Sobre </h3>
+
+    <section class="main-carousel">
+      <button class="button-arrow -left"><span class="content">Voltar</span></button>
+      <div class="items">
+        <div class="elements">
+
+        
+
+
+        <figure class="node-card">
+          <figcaption class="title">2010</figcaption>
+          <div class="logo">
+            <img src="/img/ico_js.png" alt="js">
+          </div>
+        </figure>
+        <figure class="node-card">
+          <figcaption class="title">2012</figcaption>
+          <div class="logo">
+            <img src="/img/ico_js.png" alt="js">
+          </div>
+        </figure>
+        <figure class="node-card">
+          <figcaption class="title">2014</figcaption>
+          <div class="logo">
+            <img src="/img/ico_js.png" alt="js">
+          </div>
+        </figure>
+        <figure class="node-card -first">
+          <figcaption class="title">2016</figcaption>
+          <div class="logo">
+            <img src="/img/ico_js.png" alt="js">
+          </div>
+        </figure>
+        <figure class="node-card -clean">
+          <figcaption class="title">2018</figcaption>
+          <div class="logo">
+            <img src="/img/ico_js.png" alt="js">
+          </div>
+        </figure>
+        <figure class="node-card -first">
+          <figcaption class="title">2020</figcaption>
+          <div class="logo">
+            <img src="/img/ico_js.png" alt="js">
+          </div>
+        </figure>
+      </div>
+      </div>
+      <button class="button-arrow -right"><span class="content">Avançar</span></button>
+    </section>
+    <p class="main-description">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere unde magni deserunt voluptas quas laboriosam
+      nesciunt dolores saepe sit quod reiciendis, aut esse atque recusandae sapiente at eveniet, distinctio praesentium?
+    </p>
+  </section>
+  <script src="js/components/main-carousel.js"></script>
 </body>
 
 </html>
