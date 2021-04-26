@@ -14,3 +14,9 @@
 .main-section.-bdFirst{
 border-color: violet;
 }
+.main-section.-bgSecond {
+  background-color: #7C5e99;
+}
+.main-section.-bdBlack {
+  border-color: #000;
+}
