@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  padding-top: 0;
+  text-decoration: none;
+}
+.main {
+  width: 400px;
+  height: min(700px, 90vh);
+  
+  display: flex;
+  flex-direction: column;
+}
+.about {
+  text-align: center;
+}
+.logo {
+  width: 175px;
+
+  border-radius: 50%;
+  transition: opacity 0.3s;
+}
+.logo:hover {
+  opacity: 0.8;
+}
+footer {
+  color: gray;
+}
+footer::after{
+  content: '';
+}
